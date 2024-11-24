@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../images/logo.svg';
-import navIcon1 from '../images/nav-icon1.svg';
-import navIcon2 from '../images/nav-icon2.svg';
-import navIcon3 from '../images/nav-icon3.svg';
+import logo from '../img/logo.svg';
+import navIcon1 from '../img/nav-icon1.svg';
+import navIcon2 from '../img/nav-icon2.svg';
+import navIcon3 from '../img/nav-icon3.svg';
 
 
 export const NavBar = () => {
@@ -56,6 +56,6 @@ export const NavBar = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-   
+
   )
 }
