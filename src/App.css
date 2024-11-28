@@ -783,6 +783,26 @@ p.danger {
   letter-spacing: 0.5px;
   border-radius: 19px;
 }
+@media (max-width: 768px) {
+  .newsletter-bx {
+    padding: 40px 20px;
+  }
+
+  .new-email-bx button {
+    padding: 10px 30px;
+    font-size: 0.9rem;
+  }
+
+  .new-email-bx input {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .newsletter-bx h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
 /* =============================start Skilllllllllls============================= */
 .skill-bx {
   background: #151515;

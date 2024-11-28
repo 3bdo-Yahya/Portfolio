@@ -22,11 +22,11 @@ export const Newletters = ({ onValidated, status, message }) => {
   return (
     <Col lg={12} className="">
       <div className="newsletter-bx">
-        <Row>
-          <Col lg={12} xl={5}>
+        <Row className="d-flex flex-column flex-md-row">
+          <Col md={5} xl={5} className="text-center text-md-start">
             <h3>Subscribe to our Newsletter & Never miss latest updates</h3>
           </Col>
-          <Col md={6} xl={7}>
+          <Col md={7} xl={7} className="mt-4 mt-md-0">
             <form onSubmit={handleSubmit}>
               <div className="new-email-bx">
                 <input
