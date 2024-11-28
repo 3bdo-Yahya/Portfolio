@@ -64,17 +64,11 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi I'm John Doe `} <span className="wrap">{text}</span>
+                    {`Hi I'm John `} <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    lorem ipsum dolor sit amet consectetur adipiscing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat duis
-                    aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur excepteur sint
-                    occaecat cupidatat non proident sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
+                    My code never has bugs, it just develops random unexpected
+                    features.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let's connect <ArrowRightCircle size={25} />
